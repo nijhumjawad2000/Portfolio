@@ -82,6 +82,10 @@ a,button{
 .social-body ul li a:hover{
 	width:50px;
 }
+.social-body ul li.git a {
+	background: black;
+	border: 1px solid #607D8B;
+}
 .social-body  ul li.facebook a{
 	background:#425F9C;
 }
@@ -93,6 +97,11 @@ a,button{
 }
 .social-body ul li.pinterest a{
 	background:#CB2028;
+}
+
+.developer{
+	margin-left: 93px;
+	font-size: 22px;
 }
 /* button */
 a:hover{
@@ -367,7 +376,6 @@ a:hover{
 ===========================*/
 .about{
 	padding-top:100px;
-	padding-bottom:100px;
 }
 .about .single-about p{
 	margin-bottom: 25px;
@@ -457,6 +465,16 @@ a:hover{
 	color:#fff;
 	background:#3339;
 }
+
+.text{
+	margin-right: -484px;
+	text-align: justify;
+}
+
+.single-about{
+	padding: 12vh;
+    margin-bottom: 100px;
+}
 /*=========================
 	End About CSS
 ===========================*/
@@ -519,7 +537,7 @@ a:hover{
 	padding: 50px 0 100px;
 }
 .skill .section-title {
-	margin-top: 130px;
+	margin-top: 254%;
 }
 .skill .section-title h2{
 	color:#fff;
@@ -528,7 +546,7 @@ a:hover{
 	margin-top:50px;
 }
 .skill .skill-head .skill-content {
-	margin-top: 50px;
+	margin-top: 80%;
 }
 .skill .skill-head .skill-content h3{
 	color:#fff;
@@ -594,6 +612,10 @@ a:hover{
 }
 .skill .button .btn{
 	background:#ED1C24;
+}
+.know{
+	font-size: 18px;
+	text-align: justify;
 }
 /*=========================
 	End Skills CSS
@@ -817,6 +839,7 @@ a:hover{
 	transition:all 0.4s ease;
 	color:#fff;
 	font-size:16px;
+	margin-top: 5%;
 }
 .latest-works .single-work .works-hover .more{
 	margin-top:20px;
@@ -1288,7 +1311,7 @@ a:hover{
 	text-transform:capitalize;
 }
 .contact .contact-info p {
-	color: #777;
+	font-size: 15px;
 	display: block;
 	margin-bottom: 20px;
 }
@@ -1415,7 +1438,7 @@ margin:0;
 	padding:25px 0;
 }
 .footer .copyright p{
-	color:#666666;
+	color:#9E9E9E;
 }
 /*===========================
 	End Footer CSS
